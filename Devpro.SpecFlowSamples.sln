@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleFeatures", "test\SampleFeatures\SampleFeatures.csproj", "{0FEFB1F1-60F2-4966-A41E-471A023A9EC6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B5E15D9-F9DA-4EB4-A7E4-E10A4C9BA91B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{7B5E15D9-F9DA-4EB4-A7E4-E10A4C9BA91B}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
@@ -13,6 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLogic", "src\SampleLogic\SampleLogic.csproj", "{1855049B-671C-4F45-B7FB-7D0F2F75870E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipelines", "pipelines", "{B5B37F4F-5515-4EDF-8D72-4495FFA67EFC}"
+	ProjectSection(SolutionItems) = preProject
+		.azure\pipelines\ci.yml = .azure\pipelines\ci.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Getting Started", "1 - Getting Started", "{75EDE4DF-C09E-4D8A-8DA9-BC89200998A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +38,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FEFB1F1-60F2-4966-A41E-471A023A9EC6} = {75EDE4DF-C09E-4D8A-8DA9-BC89200998A9}
+		{1855049B-671C-4F45-B7FB-7D0F2F75870E} = {75EDE4DF-C09E-4D8A-8DA9-BC89200998A9}
+		{B5B37F4F-5515-4EDF-8D72-4495FFA67EFC} = {7B5E15D9-F9DA-4EB4-A7E4-E10A4C9BA91B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {640A11D7-FE13-416D-8418-5E0F149FB428}
