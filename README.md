@@ -6,6 +6,8 @@
 
 Samples of [SpecFlow](https://specflow.org/) projects and build/run on Azure DevOps (build & release pipelines).
 
+Azure release pipelines: [specflow-samples-run](https://dev.azure.com/devprofr/open-source/_release?definitionId=3&view=mine&_a=releases)
+
 ## Requirements
 
 Follow the [getting started](https://specflow.org/getting-started) page.
